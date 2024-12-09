@@ -1,3 +1,4 @@
+
 import joblib
 from sklearn.linear_model import LogisticRegression 
 
@@ -11,4 +12,4 @@ model = LogisticRegression(
 
 model.fit(X_train, y_train)
 
-joblib.dump(model, "model.pkl")
+joblib.dump(model, "load_model.pkl")
